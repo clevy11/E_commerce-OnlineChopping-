@@ -1,0 +1,21 @@
+export default {
+  login_api: '/signin',
+  signup_api: '/signup',
+  logout_api: '/signout',
+  get_products_api: '/public/products',
+  create_products_api: '/public/products',
+  update_products_api: id => `/public/products/${id}`,
+  delete_products_api: id => `/public/products/${id}`,
+  get_product_api: id => `/public/products/${id}`,
+  get_user_profile_api: '/user/profile',
+  update_user_profile_api: '/user/profile',
+  get_cart_api: '/cart',
+  add_to_cart_api: '/cart/add',
+  update_cart_api: id => `/cart/${id}`,
+  remove_from_cart_api: id => `/cart/${id}`,
+  get_orders_api: '/orders',
+  get_user_orders_api: '/user/orders',
+  get_order_api: id => `/orders/${id}`,
+  checkout_api: '/orders/checkout',
+  get_user_cart_api: '/user/cart'
+};
